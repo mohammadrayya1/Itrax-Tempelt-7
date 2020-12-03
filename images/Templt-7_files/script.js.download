@@ -34,27 +34,3 @@ link.classList.add('active');
 
 
 });
-
-
-var input=document.querySelector(".input");
-var span=document.querySelector('.sp');
-var p1=document.querySelector('.pp');
-
-
-
-span.addEventListener('click',function()
-{
-if(!input.value)
-{
-    console.log("kk");
-    p1.style.color="blue";
-    p1.innerHTML="Please enter a value";
-}
-else
-{
-    var x=input.value;
-    p1.style.color="blue";
-    p1.innerHTML=`${x}  is already subscribed to list pexels. Click here to update your profile"`;
-}
-
-});
